@@ -8,6 +8,10 @@ public class ordenamientoobjetos {
     public static void main(String[] args) {
         Estudiante [] arrayEstudiante = new Estudiante[5];
         arrayEstudiante[0] = new Estudiante("Juan", "Polania", "123", 5, 5.0);
+        arrayEstudiante[1] = new Estudiante("Carlos", "Rodriguez", "456", 3, 4.0);
+        arrayEstudiante[2] = new Estudiante("Camilo", "Lopez", "789", 6, 2.0);
+        arrayEstudiante[3] = new Estudiante("Paula ", "Zuñiga", "012", 2, 2.5);
+        arrayEstudiante[4] = new Estudiante("Carlos", "Cortez", "345", 1, 4.5);
+        arrayEstudiante[5] = new Estudiante("Sebastian", "Ospina", "678", 4, 3.5);
     }
-    
 }

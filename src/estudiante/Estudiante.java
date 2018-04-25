@@ -10,7 +10,7 @@ public class Estudiante {
         setApellido(apellido);
         setIdentificacion(identificacion);
         setPuesto(puesto);
-        setNota(nota);
+        setNota(nota); 
     }
     public String imprimir(){
         return ""; 
