@@ -13,7 +13,9 @@ public class Estudiante {
         setNota(nota); 
     }
     public String imprimir(){
-        return ""; 
+        String mensaje = "";
+        mensaje = getNombre()+ " "+ getApellido()+ " " + getNota()+ " " + getPuesto();
+        return mensaje; 
     }
     public void setNombre(String nombre) {
         this.nombre = nombre;
